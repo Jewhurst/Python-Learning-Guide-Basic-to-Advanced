@@ -14,6 +14,30 @@ This project contains a series of Python lessons designed for onboarding and tra
 2. Try to complete the tasks based on the provided instructions and skeleton code
 3. If you get stuck, refer to the corresponding solution in the `answers/` directory
 
+## Running Tests
+
+Tests are provided for some of the tasks to help verify your implementation. To run the tests:
+
+1. Make sure you have pytest installed:
+   ```
+   pip install pytest
+   ```
+
+2. Run all tests:
+   ```
+   pytest
+   ```
+
+3. Run tests for a specific task:
+   ```
+   pytest tests/test_task16_full_app_project.py
+   ```
+
+4. Run a specific test function:
+   ```
+   pytest tests/test_task16_full_app_project.py::test_read_root
+   ```
+
 ## Lessons
 
 ### Task 1: Basic Syntax, Strings, and Lists
